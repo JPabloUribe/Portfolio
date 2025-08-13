@@ -1,0 +1,25 @@
+$full-height: 100%;
+$size-header: 5%;
+$size-footer: 20%;
+
+$size-content: $full-height - $size-header;
+
+.main {
+  height: $full-height;
+  width: 100%;
+}
+
+.header {
+  height: $size-header;
+  width: 100%;
+}
+
+.content {
+  height: $size-content;
+  width: 100%;
+}
+
+.footer {
+  height: $size-footer;
+  width: 100%;
+}
